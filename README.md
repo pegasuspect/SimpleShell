@@ -1,7 +1,7 @@
-# SimpleShell #SS
+### SimpleShell #SS
 Is a project of simple helper shell scripts. You may do as you please with this project. 
 
-# Contributions
+### Contributions
 Contributions are welcome, but there are rules:
 - Take necessary precautions in your script to prevent unwanted behavior.
 - Start your script with comments.
