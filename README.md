@@ -1,5 +1,5 @@
 ### SimpleShell #SS
-Is a project of simple helper shell scripts. You may do as you please with this project. 
+Is a project of simple helper shell scripts. No licence is intended.
 
 ### Contributions
 Contributions are welcome, but there are rules:
@@ -8,8 +8,10 @@ Contributions are welcome, but there are rules:
   - Write a title on top of your script.
   - Add a description of what it does.
   - Add the usage.
+- Formatting should be as follows
   - Your lines should not exceed 80 columns.
   - New lines should start 2 spaces inside of a regular line.
+  - There should be a space between **#** and _your comment_.
 
 Your comments may look something like this:
 ```
@@ -19,6 +21,5 @@ Your comments may look something like this:
 #   extra care using this script.
 # Usage: ./gitReset.sh <howManyCommitsBack>
 ```
-
 
 That's all for now.
