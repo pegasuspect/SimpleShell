@@ -1,4 +1,4 @@
-### SimpleShell #SS
+### SimpleShell
 Is a project of simple helper shell scripts. No licence is intended.
 
 ### Contributions
