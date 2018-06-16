@@ -7,6 +7,6 @@ else
   Git Garbage Collector
   Description: Removes dangling blobs and commits in your .git folder.
 
-  Usage: ./gitGarbageCollect.sh \"please\"
+  Usage: $0 \"please\"
   "
 fi

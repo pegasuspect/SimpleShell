@@ -10,6 +10,6 @@ else
     - 'drop' to remove it
     - 'reword' to just change the commit message
 
-  Usage: ./modifyHistory.sh <howManyCommitsBack>
+  Usage: $0 <howManyCommitsBack>
   "
 fi
