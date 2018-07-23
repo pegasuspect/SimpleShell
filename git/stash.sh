@@ -9,9 +9,9 @@ elif [[ $1 = "+=" && ! -z $2 && ! -z $3 ]]; then
 elif [[ $1 = "+=" && ! -z $2 ]]; then
     git stash push -m "$2"
 elif [[ $1 = "-=" && ! -z $2 ]]; then
-    git stash pop $(stash_cut | grep $2 | head -1 | cut -d: -f1 | tr -d ' ')
+    git stash pop $(git stash list | grep "$2" | head -1 | cut -d: -f1 | tr -d ' ')
 elif [[ $1 = "list" && ! -z $2 ]]; then
-    stash_index=$(stash_cut | grep "$2" | head -1 | cut -d: -f1 | tr -d ' ')
+    stash_index=$(git stash list | grep "$2" | head -1 | cut -d: -f1 | tr -d ' ')
     if [[ -z $stash_index ]]; then
         return 0
     fi
